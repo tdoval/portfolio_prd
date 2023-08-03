@@ -1,0 +1,146 @@
+.navbar {
+    padding: 2rem 12rem 2rem 12rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar {
+        padding: 2rem 2rem 2rem 2rem;
+    }
+  }
+
+.is-primary {
+    color: #fff;
+    background-color: #283891;
+}
+
+.secondary-text{
+    color: #380B0A;
+}
+
+.nav-menu {
+    font-size: 1.4em;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: #283891;
+}
+.tdv-btn{
+    color: #283891;
+    padding: 10px;
+    border: 3px solid #283891;
+    border-radius: 1rem;
+}
+
+.tdv-btn:hover{
+    background-color: #283891;
+    color: #FBFBFB;
+}
+
+.tittle-1 {
+    font-weight: 900;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+.tittle-2 {
+    font-weight: 900;
+    font-size: 2em;
+    padding-top: 28px;
+}
+
+.subtitle {
+    margin-top: 2rem;
+    font-weight: 100;
+}
+
+.sub-2 {
+    font-size: 1.5em;
+    font-weight: 100;
+    padding-bottom: 28px;
+}
+.fix-margin {
+    margin-top: 75px;
+}
+
+.btn-outline-primary {
+    border-color: #283891;
+    color: rgba(0,0,0,.5);
+    border: 3px solid #283891;
+}
+
+.btn-outline-primary:hover {
+    background-color: #283891;
+    border-color: #283891;
+    color: azure;
+}
+
+.avatar-tdoval{
+    max-width: 350px;
+}
+
+.btn {
+    border-radius: .6rem;
+    border: 3px solid transparent;
+}
+
+.section-medium{
+    padding: 9rem;
+}
+
+.border-gray {
+    border: 1px dashed #5D5D5D;
+}
+.section {
+    padding: 5rem;
+    display: block;
+}
+
+.habilidades {
+    margin-top: -14rem;
+    padding-bottom: 1rem;
+}
+.is-narrow{
+    max-width: 1200px;
+}
+
+.container {
+    display: flex;
+    width: auto;
+    position: relative;
+}
+
+.grouped {
+    -webkit-box-flex:0;
+    flex: none;
+    width: 60%;
+}
+
+.box {
+    padding: 0;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 5px 0;
+    display: block;
+    color: #380B0A;
+}
+
+.column {
+    padding: 70px 45px;
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    padding: 1rem;
+    
+}
+
+.columns {
+    display: flex;
+}
+
+.avatar-contact {
+    width: 84px;
+    margin: -50px auto 50px;
+}
